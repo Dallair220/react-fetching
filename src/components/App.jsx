@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <h1>React fetching</h1>
+      <h1>React Fetching</h1>
       <div className='card'>
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
