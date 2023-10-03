@@ -1,15 +1,13 @@
-import { useState } from 'react';
+// import Image from './Image';
+import Profile from './Profile';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <h1>React Fetching</h1>
-      <div className='card'>
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+      <div className='card app'>
+        {/* <Image /> */}
+        <Profile delay={1000} />
       </div>
     </>
   );
